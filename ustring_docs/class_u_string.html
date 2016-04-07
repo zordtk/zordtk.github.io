@@ -219,6 +219,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6f38dd4005971a517bb61d557e8ee52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab4a7987fac82ade4cfebe1dd00cd9f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#aab4a7987fac82ade4cfebe1dd00cd9f5">replaceLast</a> (const <a class="el" href="class_u_string.html">UString</a> &amp;what, const <a class="el" href="class_u_string.html">UString</a> &amp;with, std::size_t <a class="el" href="class_u_string.html#a5abc45285a66adc36ec520be526f72d9">end</a>=npos)</td></tr>
 <tr class="separator:aab4a7987fac82ade4cfebe1dd00cd9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90dd1f6a0a5ce66c9604957db98655ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a90dd1f6a0a5ce66c9604957db98655ec">erase</a> (const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;start, const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;stop)</td></tr>
+<tr class="separator:a90dd1f6a0a5ce66c9604957db98655ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3cdb5d9af84ebc8a620e81b501c338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#aec3cdb5d9af84ebc8a620e81b501c338">erase</a> (std::size_t start, std::size_t num=1)</td></tr>
+<tr class="separator:aec3cdb5d9af84ebc8a620e81b501c338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64696bb9874f272b2ac6fc85de3c985d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a64696bb9874f272b2ac6fc85de3c985d">begin</a> ()</td></tr>
 <tr class="separator:a64696bb9874f272b2ac6fc85de3c985d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5abc45285a66adc36ec520be526f72d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a5abc45285a66adc36ec520be526f72d9">end</a> ()</td></tr>
@@ -582,6 +586,74 @@ static const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>npos</
 </table>
 </div><div class="memdoc">
 <p>Returns a constant iterator pointing to the beginning of the string </p><dl class="section return"><dt>Returns</dt><dd>Iterator pointing to the start of the string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a90dd1f6a0a5ce66c9604957db98655ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_string.html">UString</a>&amp; UString::erase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erase character(s) at given index </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>Iterator reference to position to begin erasing </td></tr>
+    <tr><td class="paramname">stop</td><td>Iterator reference to position to stop erasing </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aec3cdb5d9af84ebc8a620e81b501c338"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_string.html">UString</a>&amp; UString::erase </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>num</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erase character(s) in given iterator range </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>Index of character to start erasing </td></tr>
+    <tr><td class="paramname">num</td><td>Number of characters to erase </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
 
 </div>
 </div>
