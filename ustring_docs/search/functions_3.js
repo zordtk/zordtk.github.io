@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['find',['find',['../class_u_string.html#a4bc046c02e154984b16587f28d04613d',1,'UString::find(UChar ch, std::size_t start=0) const '],['../class_u_string.html#a0d0635e3dbd585f63391a52f5a5cb58a',1,'UString::find(const UString &amp;what, std::size_t start=0) const ']]],
-  ['findlastof',['findLastOf',['../class_u_string.html#aa0dd9edaad6c8b3fecd450d53b9341ac',1,'UString::findLastOf(UChar ch, std::size_t pos=npos) const '],['../class_u_string.html#a5844b035eff1490802b8f7ad16a50d16',1,'UString::findLastOf(const UString &amp;what, std::size_t pos=npos) const ']]],
-  ['fromstdu16string',['fromStdU16String',['../class_u_string.html#ad80a3ab638ae696406e6ae232830d5b2',1,'UString']]],
-  ['fromstdu32string',['fromStdU32String',['../class_u_string.html#aa0ad73ecb777d20ce335bbea2bfb209a',1,'UString']]]
+  ['end',['end',['../class_u_string.html#a5abc45285a66adc36ec520be526f72d9',1,'UString::end()'],['../class_u_string.html#a81a92c80331047fdd52205757ae64130',1,'UString::end() const ']]],
+  ['erase',['erase',['../class_u_string.html#a90dd1f6a0a5ce66c9604957db98655ec',1,'UString::erase(const Iterator &amp;start, const Iterator &amp;stop)'],['../class_u_string.html#aec3cdb5d9af84ebc8a620e81b501c338',1,'UString::erase(std::size_t start, std::size_t num=1)']]]
 ];

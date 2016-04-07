@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maxsize',['maxSize',['../class_u_string.html#adb4df70f5b6c537c988bf17b8189d7cb',1,'UString']]]
+  ['length',['length',['../class_u_string.html#a251f036946885fd62a87383a64b4f043',1,'UString']]]
 ];

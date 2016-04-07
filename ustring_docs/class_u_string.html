@@ -221,6 +221,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aab4a7987fac82ade4cfebe1dd00cd9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90dd1f6a0a5ce66c9604957db98655ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a90dd1f6a0a5ce66c9604957db98655ec">erase</a> (const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;start, const <a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a> &amp;stop)</td></tr>
 <tr class="separator:a90dd1f6a0a5ce66c9604957db98655ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fef3e9022b0b7cc8382ce889b330f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a72fef3e9022b0b7cc8382ce889b330f6">clear</a> ()</td></tr>
+<tr class="separator:a72fef3e9022b0b7cc8382ce889b330f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec3cdb5d9af84ebc8a620e81b501c338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#aec3cdb5d9af84ebc8a620e81b501c338">erase</a> (std::size_t start, std::size_t num=1)</td></tr>
 <tr class="separator:aec3cdb5d9af84ebc8a620e81b501c338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64696bb9874f272b2ac6fc85de3c985d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string_1_1_iterator_base.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a64696bb9874f272b2ac6fc85de3c985d">begin</a> ()</td></tr>
@@ -538,6 +540,22 @@ static const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>npos</
 </table>
 </div><div class="memdoc">
 <p>Returns a constant iterator pointing to the beginning of the string </p><dl class="section return"><dt>Returns</dt><dd>Iterator pointing to the start of the string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a72fef3e9022b0b7cc8382ce889b330f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_string.html">UString</a>&amp; UString::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clear this string </p><dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
 
 </div>
 </div>
@@ -1194,7 +1212,7 @@ static const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>npos</
       </table>
 </div><div class="memdoc">
 <p>Prepend a <a class="el" href="class_u_char.html">UChar</a> to the current string</p>
-<p>This is provieded for STL compatibility and simply calls <a class="el" href="class_u_string.html#a0b7d34fb6eb3204b07a22fd37a16d9d0">append()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This is provieded for STL compatibility and simply calls <a class="el" href="class_u_string.html#a985b730b3ad46dccf9151b9d28cbf3f2">prepend()</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ch</td><td>Character to append </td></tr>
   </table>
@@ -1217,7 +1235,7 @@ static const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>npos</
       </table>
 </div><div class="memdoc">
 <p>Prepend a <a class="el" href="class_u_string.html">UString</a> to the current string</p>
-<p>This is provieded for STL compatibility and simply calls <a class="el" href="class_u_string.html#a0b7d34fb6eb3204b07a22fd37a16d9d0">append()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This is provieded for STL compatibility and simply calls <a class="el" href="class_u_string.html#a985b730b3ad46dccf9151b9d28cbf3f2">prepend()</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td><a class="el" href="class_u_string.html">UString</a> to append </td></tr>
   </table>
