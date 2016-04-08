@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8cc1c2ca294422da134d07421efe9f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64aacb06a7a23cdacc9b6273d27b22b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a64aacb06a7a23cdacc9b6273d27b22b3">UString</a> (<a class="el" href="class_u_char.html">UChar</a> ch) USTRING_NOEXCEPT</td></tr>
 <tr class="separator:a64aacb06a7a23cdacc9b6273d27b22b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947f406da35c173765d41b3940c76080"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a947f406da35c173765d41b3940c76080">insert</a> (const <a class="el" href="class_u_string.html">UString</a> &amp;other, std::size_t pos)</td></tr>
+<tr class="separator:a947f406da35c173765d41b3940c76080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d379b0160f5c925ab514077262d42b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a0d379b0160f5c925ab514077262d42b5">assign</a> (const <a class="el" href="class_u_string.html">UString</a> &amp;other)</td></tr>
 <tr class="separator:a0d379b0160f5c925ab514077262d42b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4197d636dd9da1abcc799a92e3785cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_string.html#a4197d636dd9da1abcc799a92e3785cdd">assign</a> (const char *other)</td></tr>
@@ -870,6 +872,41 @@ static const size_t&#160;</td><td class="memItemRight" valign="bottom"><b>npos</
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New UTF-8 encoded string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a947f406da35c173765d41b3940c76080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_string.html">UString</a>&amp; UString::insert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_u_string.html">UString</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts other string into this one at the given position</p>
+<p>If the given position is greater than the length of this string it will be appended. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>String to insert </td></tr>
+    <tr><td class="paramname">pos</td><td>Position of the string to insert at </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this object </dd></dl>
 
 </div>
 </div>
